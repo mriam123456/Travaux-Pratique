@@ -1,4 +1,4 @@
-##Exercice 1: Introduction au expressions régulières
+##Exercice 1: Introduction au expressions régulières (Dirigé)
 
 >Effectuer le tutoriel du site https://regexone.com/
 

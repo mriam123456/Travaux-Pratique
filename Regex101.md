@@ -36,3 +36,39 @@ Match : Trouver une expression régulière validant les formats suivants :
 >####Une numéro de plaque d'immatriculation (ex: AF-789-RT) / décomposé en ses trois composante
 
 >Le fugitif s'est enfui à bord d'un véhicule immatriculé AS-701-PT
+
+#Exercice 3 : Explication de code
+
+Le code suivant détaille l'utilisation des 2 objets permettant l'exploitation des expressions régulière en Java
+
+** 1 - Veuillez expliquer les lignes marquée , en spécifiant le type d'opération effectuée
+
+```java
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexMatches {
+
+   public static void main( String args[] ) {
+      // String qui sera "scannée" par notre expression régulière , pourquoi le \\ dans l'expression régulière?
+      String line = "This order was placed for QT3000! OK?";
+      String pattern = "(.*)(\\d+)(.*)";
+
+      // Que fait la ligne suivante ?
+      Pattern r = Pattern.compile(pattern);
+
+      // Que fait la ligne suivante ?
+      Matcher m = r.matcher(line);
+      
+      //Que fait la condition suivante , et que font les intructions du bloc de code dont elle contrôle l'accès
+      if (m.find( )) {
+         System.out.println("Found value: " + m.group(0) );
+         System.out.println("Found value: " + m.group(1) );
+         System.out.println("Found value: " + m.group(2) );
+      }else {
+         System.out.println("NO MATCH");
+      }
+   }
+}
+```
+

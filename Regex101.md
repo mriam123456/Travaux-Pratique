@@ -39,9 +39,9 @@ Match : Trouver une expression régulière validant les formats suivants :
 
 #Exercice 3 : Explication de code
 
-Le code suivant détaille l'utilisation des 2 objets permettant l'exploitation des expressions régulière en Java
+Le code suivant détaille l'utilisation des 2 objets permettant l'exploitation des expressions régulière en Java (Matcher et Pattern)
 
-** 1 - Veuillez expliquer les lignes marquée , en spécifiant le type d'opération effectuée
+**1 - Veuillez expliquer les lignes marquées
 
 ```java
 import java.util.regex.Matcher;
@@ -71,4 +71,6 @@ public class RegexMatches {
    }
 }
 ```
+
+**2 - Veuillez fournir une description des objets Pattern et Matcher
 

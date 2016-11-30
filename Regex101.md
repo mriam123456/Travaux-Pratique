@@ -1,6 +1,6 @@
 ##Exercice 1: Introduction au expressions régulières
 
-Effectuer le tutoriel du site https://regexone.com/
+>Effectuer le tutoriel du site https://regexone.com/
 
 
 ##Exercice 2 : Expression régulière dans la nature
@@ -10,11 +10,11 @@ Veuillez l'utiliser pour tester et valider vos réponses
 
 Match : Trouver une expression régulière validant les formats suivants :
 
-Une date au format jj-mm-YYYY (ex: 20-11-1981)/ Décomposée en jj , mm , YYYY
+>Une date au format jj-mm-YYYY (ex: 20-11-1981)/ Décomposée en jj , mm , YYYY
 
-Texte fourni :
+>Texte fourni :
 
-Nulle autre date que le 08-11-2016 n'évoque autant la crainte parmis les survivants de la 3eme guerre mondiale 
+>Nulle autre date que le 08-11-2016 n'évoque autant la crainte parmis les survivants de la 3eme guerre mondiale 
 
 
 Une adresse mail classique (ex: manuel.riam@chu-fortdefrance.fr) / décomposée en nomdeboite - nom d'hôte

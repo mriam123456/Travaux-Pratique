@@ -32,7 +32,7 @@ Match : Trouver une expression régulière validant les formats suivants :
 
 ##Format arbitraire
 >####Une identifiant national au format 4Chiffre_12CaractèreAlhpanumériques (ex: 5846_ADT7HJ96VB50) / Décomposé en partie avant le _ et la partie le suivant
->Le dossier du patient est référencé sous 2494_RTY7JK65POAZE
+>Le dossier du patient est référencé sous 2494_RTY7JK65POAZ
 
 ##N° immatriculation
 >####Une numéro de plaque d'immatriculation (ex: AF-789-RT) / décomposé en ses trois composante

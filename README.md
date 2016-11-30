@@ -2,7 +2,7 @@
 
 Cette page regroupe l'ensemble des exercices permettant la compréhension des concepts transervaux de la programmation applicative
 
-##Expressions Régulières
+##[Expressions Régulières](https://github.com/mriam123456/Travaux-Pratique/blob/master/Regex101.md)
 Les expressions régulière sont un algorithme générique de manipulation , d'identification et d'extraction de texte (Chaines de caractère) 
 Leur maitrise permet de simplifier grandement la programmation de tâche courante et cruciales telle que:
 

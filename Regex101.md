@@ -24,7 +24,7 @@ Match : Trouver une expression régulière validant les formats suivants :
 >####Une identifiant national au format 4Chiffre_12CaractèreAlhpanumériques (ex: 5846_ADT7HJ96VB50) / Décomposé en partie avant le _ et la partie le suivant
 >Le dossier du patient est référencé sous 2494_RTY7JK65POAZE
 
-#N° immatriculation
+##N° immatriculation
 >####Une numéro de plaque d'immatriculation (ex: AF-789-RT) / décomposé en ses trois composante
 
 >Le fugitif s'est enfui à bord d'un véhicule immatriculé AS-701-PT

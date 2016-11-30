@@ -10,10 +10,9 @@ Veuillez l'utiliser pour tester et valider vos réponses
 
 Match : Trouver une expression régulière validant les formats suivants :
 
->Une date au format jj-mm-YYYY (ex: 20-11-1981)/ Décomposée en jj , mm , YYYY
+>###Une date au format jj-mm-YYYY (ex: 20-11-1981)/ Décomposée en jj , mm , YYYY
 
 >Texte fourni :
-
 >Nulle autre date que le 08-11-2016 n'évoque autant la crainte parmis les survivants de la 3eme guerre mondiale 
 
 

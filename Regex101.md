@@ -15,6 +15,9 @@ Match : Trouver une expression régulière validant les formats suivants :
 >Texte fourni :
 >Nulle autre date que le 08-11-2016 n'évoque autant la crainte parmis les survivants de la 3eme guerre mondiale 
 
+>####Résultat Attendu
+> ![regex avec captures](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/regex101-1.gif?raw=true "Regex avec captures")
+
 ##eMail
 >####Une adresse mail classique (ex: manuel.riam@chu-fortdefrance.fr) / décomposée en nomdeboite - nom d'hôte
 >Texte fourni:

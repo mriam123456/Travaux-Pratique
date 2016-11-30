@@ -16,6 +16,9 @@ Match : Trouver une expression régulière validant les formats suivants :
 >Nulle autre date que le 08-11-2016 n'évoque autant la crainte parmis les survivants de la 3eme guerre mondiale 
 
 >####Résultat Attendu
+>#####Sans les groupes de capture
+![regex avec captures](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/regex101-2.gif?raw=true "Regex avec captures")
+>#####Avec les groupes de capture
 > ![regex avec captures](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/regex101-1.gif?raw=true "Regex avec captures")
 
 ##eMail

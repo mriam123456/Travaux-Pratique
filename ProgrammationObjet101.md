@@ -71,10 +71,16 @@ Historiquement , la complexité de la programmation des structures dynamiques (e
 
 
 
-##2. Nécessité d'un paradigme de composition d'ordre supérieur
+##2. Evolution langage et runtime multi-plateforme
 
 Les langages C et C++ offrent, grâce aux architectures processeurs et aux compilateurs modernes capables de produire et traiter du code machine hautement optimisé , des performances de très haut niveau avec virtuellement aucune perte vis-à-vis du code assembleur , reléguant ce dernier à l'écriture de drivers .
 
 Le language C++ en particulier offre des capacités hybrides multi-paradigmes (Couche objet) et s'est imposé comme la référence pour toute applications pour lesquelles les performances sont cruciales.
 
-Les languages tels que Java et C# propose quand à eux des capacités avancées en termes de programmation , de capacité de RAD et l'accès 
+Les languages tels que Java et C# propose quand à eux des capacités avancées en termes de programmation , de capacité de RAD et le Garbage Collection , ce qui réduit largement le temps requis pour le cycle de développement d'un programme . 
+
+D'autre part , ces languages sont compilés non pas en code machine , mais dans un language intermédiaire (Java ByteCode ou MSIL) qui est executé par un runtime spécialisé (JVM ou CLR) . Cette stratégie permet de conquérir les problèmes de portabilité.
+
+##3. La couche objet
+
+

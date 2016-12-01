@@ -38,7 +38,17 @@ Supposons maintenant que fonction **foo\(\)** qui prend 2 arguments est appellé
 
 ![Stack Func2 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack2.png?raw=true)
 
-Comme on peut le voir , en placant les arguments pour alimenter **foo\(\)** sur le Stack , le SF de **main\(\)** a augmenté en taille , on constate aussi que de l'espace à été réservé pour la valeur de retour de **foo\(\)**
+Comme on peut le voir , en placant les arguments pour alimenter **foo\(\)** sur le Stack , le SF de **main\(\)** a augmenté en taille , on constate aussi que de l'espace à été réservé pour la valeur de retour de **foo\(\)** , l'assignation effective à lieu quand **foo\(\)** à terminé son exécution.
+
+Une fois l'exécution de **foo\(\)** débutée , la fonction **foo\(\)** peut déclarer ses propres variable internes , **foo\(\)** va donc à son tour "push" quelque données sur le stack ce qui ressemble à 
+
+![Stack Func3 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack3.png?raw=true)
+
+**foo\(\)** peut accéder aux arguments placés sur le Stack par **main\(\)** car **main\(\)** place les arguments à une position connue de **foo\(\)** , représentée par le **Frame Pointer (FP)** .
+
+Le FP pointe à l'endroit ou se trouvait le SP juste avant que **foo\(\)**
+
+
 
 
 ##2. Nécessité d'un paradigme de composition d'ordre supérieur

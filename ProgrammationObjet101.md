@@ -65,12 +65,7 @@ Aucune modification dans le concept
 
 Le Heap (Tas en Français) est la section de mémoire que l'OS assigne pour l'allocation dynamique de mémoire , typiquement les structure de données dynamique sont programmée par des langage de Haut Niveau (C/C++) car leur conception est bien plus complexe en assembleur . Le Heap nécessite d'être controlé par le programmeur (requete d'une taille de mémoire , structure de données dynamique pour permettre de suivre à la trace la quantité de mémoire allouée à chaque cycle) .
 
-Historiquement , la complexité de la programmation des structures dynamiques (et les menaces qu'elles font planer sur la sécurité du code informatique)
-
-
-
-
-
+Historiquement , la complexité de la programmation des structures dynamiques (et les menaces qu'elles font planer sur la sécurité du code informatique) , ont motivé le développement des langages à mémoire managée (Java / C\# / ...)
 
 
 

@@ -63,7 +63,7 @@ Aucune modification dans le concept
 
 ###Heap
 
-Le Heap (Tas en Français) est la section de mémoire que l'OS assigne pour l'allocation dynamique de mémoire , typiquement les structure de données dynamique sont programmée par des langage de Haut Niveau (C/C++) car leur conception est bien plus complexe en assembleur . Le Heap nécessite d'être controlé par le programmeur (requete d'une taille de mémoire , structure de données dynamique pour permettre de suivre à la trace la quantité de mémoire allouée à chaque cycle) .
+Le Heap (Tas en Français) est la section de mémoire que l'OS assigne pour l'allocation dynamique de mémoire , typiquement les structure de données dynamique sont programmée par des langage de Haut Niveau (C/C++) car leur conception est bien plus complexe en assembleur . Le Heap nécessite d'être controlé par le programmeur (requete d'une taille de mémoire , structure de données dynamique pour permettre de suivre à la trace la quantité de mémoire allouée à chaque cycle, etc ...) .
 
 Historiquement , la complexité de la programmation des structures dynamiques (et les menaces qu'elles font planer sur la sécurité du code informatique) , ont motivé le développement des langages à mémoire managée (Java / C\# / ...)
 
@@ -73,5 +73,8 @@ Historiquement , la complexité de la programmation des structures dynamiques (e
 
 ##2. Nécessité d'un paradigme de composition d'ordre supérieur
 
+Les langages C et C++ offrent, grâce aux architectures processeurs et aux compilateurs modernes capables de produire et traiter du code machine hautement optimisé , des performances de très haut niveau avec virtuellement aucune perte vis-à-vis du code assembleur , reléguant ce dernier à l'écriture de drivers .
 
+Le language C++ en particulier offre des capacités hybrides multi-paradigmes (Couche objet) et s'est imposé comme la référence pour toute applications pour lesquelles les performances sont cruciales.
 
+Les languages tels que Java et C# propose quand à eux des capacités avancées en termes de programmation , de capacité de RAD et l'accès 

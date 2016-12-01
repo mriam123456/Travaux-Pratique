@@ -46,7 +46,32 @@ Une fois l'exécution de **foo\(\)** débutée , la fonction **foo\(\)** peut d�
 
 **foo\(\)** peut accéder aux arguments placés sur le Stack par **main\(\)** car **main\(\)** place les arguments à une position connue de **foo\(\)** , représentée par le **Frame Pointer (FP)** .
 
-Le FP pointe à l'endroit ou se trouvait le SP juste avant que **foo\(\)**
+Le FP pointe à l'endroit ou se trouvait le SP juste avant que **foo\(\)** ne l'ai déplacé pour ses besoins internes . Le FP est pratique car si l'exécution de la fonction est susceptible de déplacer le SP plusieurs fois le FP reste fixe pendant toute cette durée. De fait en code assembleur il sert de point de référence pour déterminer les positions en mémoire des variables locales et des arguments.
+
+Enfin , une fois l'exécution de **foo\(\)** terminée ,le SP peut être ramené à la position du FP , ce qui effectivement invalide l'ensemble du Stack réservé par **foo\(\)** . Ce qui nous ramène à la figure précédent l'exécution de **foo\(\)** , à la différence que la valeur de retour calculée par foo est désormais assignée 
+
+![Stack Func2 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack2.png?raw=true)
+
+Une fois que **main\(\)** à récupéré la valeur de retour , elle est "pop" vers les registre processeur ,le SP est replacé avant les arguments et la valeur de retour , ce qui les invalide sur le Stack.
+
+![Stack Func1 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack1.png?raw=true)
+
+
+###Fonctions récursives
+
+Aucune modification dans le concept
+
+###Heap
+
+Le Heap (Tas en Français) est la section de mémoire que l'OS assigne pour l'allocation dynamique de mémoire , typiquement les structure de données dynamique sont programmée par des langage de Haut Niveau (C/C++) car leur conception est bien plus complexe en assembleur . Le Heap nécessite d'être controlé par le programmeur (requete d'une taille de mémoire , structure de données dynamique pour permettre de suivre à la trace la quantité de mémoire allouée à chaque cycle) .
+
+Historiquement , la complexité de la programmation des structures dynamiques (et les menaces qu'elles font planer sur la sécurité du code informatique)
+
+
+
+
+
+
 
 
 

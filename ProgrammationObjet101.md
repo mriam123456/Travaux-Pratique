@@ -29,9 +29,16 @@ Il existe **2 opérations possibles pour un Stack :**
 ###Stack et fonctions
 
 Pour chaque appel de fonction , une section du Stack est réservée pour la fonction : une **Stack Frame**
-Prenons l'exemple classique d'un programme en C/C++ , dont le point d'entrée est la fonction **main\(\)**
+
+Prenons l'exemple classique d'un programme en C/C++ , dont le point d'entrée est la fonction **main\(\)** , un SF existe dès le début de l'exécution d'une fonction et ce jusqu'a la fin de son execution.
 
 ![Stack Func1 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack1.png?raw=true)
+
+Supposons maintenant que fonction **foo\(\)** qui prend 2 arguments est appellée au sein de la fonction **main\(\)** , l'une des méthodes pour passer les arguments à **foo\(\)** est par le biais du Stack , il faut donc que du code assembleur dans **main\(\)** effectue un "push" des arguments sur le Stack , ce qui ressemble à la figure suivante
+
+![Stack Func2 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack2.png?raw=true)
+
+Comme on peut le voir , en placant les arguments pour alimenter **foo\(\)** sur le Stack , le SF de **main\(\)** a augmenté en taille , on constate aussi que de l'espace à été réservé pour la valeur de retour de **foo\(\)**
 
 
 ##2. Nécessité d'un paradigme de composition d'ordre supérieur

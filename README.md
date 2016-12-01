@@ -11,5 +11,4 @@ Leur maitrise permet de simplifier grandement la programmation de tâche courant
  * Extraction automatisée de chaîne sur un corps de texte non structuré
  * Transformation données non-structurée -> données structurées
 
-Ne vous fiez pas à la syntaxe déroutante des masques d'expressions régulières , il ya 2 type de programmeurs , ceux qui finissent leur travaux
-dans les temps et  _**ceux qui n'ont pas encore maitrisé les expressions régulières**_
+Ne vous fiez pas à la syntaxe déroutante des masques d'expressions régulières , il ya 2 type de programmeurs , ceux qui finissent leur travaux dans les temps et  _**ceux qui n'ont pas encore maitrisé les expressions régulières**_

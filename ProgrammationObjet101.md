@@ -22,7 +22,9 @@ Dans le diagramme suivant  la région grisée représente la partie valide du St
 
 Il existe **2 opérations possibles pour un Stack :**
 * Push , permet de copier le contenu d'un ou plusieurs registre processeurs sur le stack (SP -= 4* nb_registres)
+![Stack Push Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/stack2.png?raw=true)
 * Pop  , permet de copier les données contenue dans le stack vers les registres processeur (SP += 4* nb_registres)
+![Stack Pop Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/stack3.png?raw=true)
 
 
 

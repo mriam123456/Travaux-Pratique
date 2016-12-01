@@ -8,7 +8,7 @@ Au niveau assembleur (équivalence 1:1 avec le Langage Machine) ,le seul outil p
 
 Le stack (la Pile en français) est la zone de mémoire contigüe (du point de vue du système cf: ASLR) , assignée à un processus lors de sa création par l'OS.
 
-Le Stack Pointer contient **la plus petite adresse __x__ considérant que: **
+Le Stack Pointer contient **la plus petite adresse x considérant que:**
 * **Toute adresse < x est considérée comme invalide par le process**
 * **Toute adresse > x est considérée valide par le process **
 

@@ -30,6 +30,7 @@ Il existe **2 opérations possibles pour un Stack :**
 
 Pour chaque appel de fonction , une section du Stack est réservée pour la fonction : une **Stack Frame**
 Prenons l'exemple classique d'un programme en C/C++ , dont le point d'entrée est la fonction **main()**
+
 ![Stack Func1 Image](https://github.com/mriam123456/Travaux-Pratique/blob/master/img/mstack1.png?raw=true)
 
 

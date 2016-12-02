@@ -85,6 +85,11 @@ D'autre part , ces languages sont compilés non pas en code machine , mais dans 
 
 ##3. La couche objet
 
+>_L'explosion des records de hauteur de construction au cours du XXeme siècle , suit au pas l'évolution des techniques (**Design Pattern**) et matériaux de construction , évolutions techniques (**objets**).
+>
+>Plus un immeuble (**Programme**) est haut , plus il nécessite une structure (**Architecture Logicielle**)  solide et réfléchie , composite et légère (**Composition et Polymorphisme**).
+>Mais les défis ne font que commencer , la disposition interne des sections (**Composants**) et leur besoins de modularité (**Encapsulation , Polymorphisme , DP , Composition**) , les nécessités transversales (**Composants Statiques**) , les systèmes de transport auto-contenus (**encapsulation**) et leur intégration avec les organes de gestion technique (**Controle d'erreur**), les normes (**Interfaces**) de communication ... La nécessité d'un fonctionnement ordonné (**Architecture Logicielle / Design Patterns**), prévisible (**Tests**) et maitrisé (**Bug-Free**) augmente à chaque mètre gagné (**Chaque fonctionnalité ajoutée**)
+
 La couche objet est née du besoin d'architecturer les projets informatiques de grande ampleurs . En effet le paradigme de programmation procédurale qui comme nous l'avons vu est supporté dès le _bare metal_ via le code machine / ASM , montre rapidement ses limites dans le cadre de projets composés de modules complexes , lourdements intégrés et sujets à des itérations rapides (correction de bug , ajout de fonctionnalité ...). 
 
 

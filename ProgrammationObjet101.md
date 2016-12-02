@@ -90,12 +90,11 @@ _Afin de faciliter la compréhension de ces concepts très abstraits ,j'effectue
 
 **L'encapsulation** est le gain le plus concret du paradigme objet . Ce concept veut qu'un objet soit responsable de l'ensemble de ses opérations et données interne , n'exposant que des **méthodes** ou des **propriétés** au code client . La capacité notamment d'inscrire des objets en **champs** ou **propriétés** ouvre la voie à la méthode de construction logicielle par **composition**
 
-_Dans un immeuble , l'ascensceur est un système exposant différentes **méthodes** à ses clients pour son utilisation , on appelle l'ascensceur par le biais d'un bouton et il prend en charge les opérations suivante
-* détermination du plus court chemin compte tenu de sa liste d'ordre , un **champ** (non public)
-* Ajustement du parcours en cours si **champ** idle = false , départ du parcours autrement
-Pendant le parcours , l'ascenceur expose à ses clients une **propriété** (publique) , l'étage actuel
+_Dans un immeuble , l'ascensceur est un système exposant différentes **méthodes** à ses clients pour son utilisation , on appelle l'ascensceur par le biais d'un bouton et il prend en charge les opérations suivante_
+* _détermination du plus court chemin compte tenu de sa liste d'ordre , un **champ** (non public)_
+* _Ajustement du parcours en cours si **champ** idle = false , départ du parcours autrement_
+_Pendant le parcours , l'ascenceur expose à ses clients une **propriété** (publique) , l'étage actuel_
 ....
-Si pendant le parcours un incident surviens , la **méthode** appel au poste de secours permet au client de faire appel à un technicien 
+_Si pendant le parcours un incident surviens , la **méthode** appel au poste de secours permet au client de faire appel à un technicien (contrôle d'erreur)_ 
 ....
-L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontée jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)
-_
+_L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontée jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)_

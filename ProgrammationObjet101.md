@@ -93,8 +93,13 @@ _Afin de faciliter la compréhension de ces concepts très abstraits ,j'effectue
 _Dans un immeuble , l'ascensceur est un système exposant différentes **méthodes** à ses clients pour son utilisation , on appelle l'ascensceur par le biais d'un bouton et il prend en charge les opérations suivante_
 * _détermination du plus court chemin compte tenu de sa liste d'ordre , un **champ** (non public)_
 * _Ajustement du parcours en cours si **champ** idle = false , départ du parcours autrement_
+
 _Pendant le parcours , l'ascenceur expose à ses clients une **propriété** (publique) , l'étage actuel_
+
 ....
+
 _Si pendant le parcours un incident surviens , la **méthode** appel au poste de secours permet au client de faire appel à un technicien (contrôle d'erreur)_ 
+
 ....
+
 _L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontée jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)_

@@ -83,4 +83,19 @@ D'autre part , ces languages sont compilés non pas en code machine , mais dans 
 
 ##3. La couche objet
 
+La couche objet est née du besoin d'architecturer les projets informatiques de grande ampleurs . En effet le paradigme de programmation procédurale qui comme nous l'avons vu est supporté dès le _bare metal_ via le code machine / ASM , montre rapidement ses limites dans le cadre de projets composés de modules complexes , lourdements intégrés et sujets à des itérations rapides (correction de bug , ajout de fonctionnalité ...). 
 
+
+_Afin de faciliter la compréhension de ces concepts très abstraits ,j'effectuerais quelques parallèles / métaphore signalées en italique_
+
+**L'encapsulation** est le gain le plus concret du paradigme objet . Ce concept veut qu'un objet soit responsable de l'ensemble de ses opérations et données interne , n'exposant que des **méthodes** ou des **propriétés** au code client . La capacité notamment d'inscrire des objets en **champs** ou **propriétés** ouvre la voie à la méthode de construction logicielle par **composition**
+
+_Dans un immeuble , l'ascensceur est un système exposant différentes **méthodes** à ses clients pour son utilisation , on appelle l'ascensceur par le biais d'un bouton et il prend en charge les opérations suivante
+* détermination du plus court chemin compte tenu de sa liste d'ordre , un **champ** (non public)
+* Ajustement du parcours en cours si **champ** idle = false , départ du parcours autrement
+Pendant le parcours , l'ascenceur expose à ses clients une **propriété** (publique) , l'étage actuel
+....
+Si pendant le parcours un incident surviens , la **méthode** appel au poste de secours permet au client de faire appel à un technicien 
+....
+L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontée jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)
+_

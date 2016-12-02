@@ -114,4 +114,4 @@ La couche objet est née du besoin d'architecturer les projets informatiques de 
 >
 >....
 >
->_L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontée jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)_
+>_L'ascenceur est lui même **composé** de nombreux sous-systèmes , certains exposant des **méthodes** remontées jusqu'au client de l'ascensceur (le clavier est un **objet** permettant la spécification de **paramètres** au **composant** moteur logique de l'**objet** ascensceur)_

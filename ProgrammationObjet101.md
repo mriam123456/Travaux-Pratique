@@ -1,4 +1,5 @@
 http://www.jvoegele.com/software/langcomp.html
+https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf
 
 #Programmation Objet , Concept et Design Patterns
 

@@ -2,6 +2,8 @@ http://www.jvoegele.com/software/langcomp.html
 
 https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.pdf
 
+http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html
+
 #Programmation Objet , Concept et Design Patterns
 
 ## 1. Capacité d'abstraction de bas niveau
